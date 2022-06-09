@@ -7,7 +7,7 @@ import { useContext } from "react";
 
 export function Summary() {
 
-    const transactions = useContext(TransactionsContext); //this component is using CONTEXT
+    const { transactions } = useContext(TransactionsContext); //this component is using CONTEXT
 
     console.log(transactions)
     
